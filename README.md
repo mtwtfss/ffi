@@ -1,4 +1,4 @@
-# ruby-ffi https://wiki.github.com/ffi/ffi [![Build Status](https://travis-ci.org/ffi/ffi.png?branch=master)](https://travis-ci.org/ffi/ffi) [![Build status Windows](https://ci.appveyor.com/api/projects/status/r8wxn1sd4s794gg1/branch/master?svg=true)](https://ci.appveyor.com/project/larskanis/ffi-aofqa/branch/master)
+# ruby-ffi with support for Heroku-18 stack https://wiki.github.com/ffi/ffi [![Build Status](https://travis-ci.org/ffi/ffi.png?branch=master)](https://travis-ci.org/ffi/ffi) [![Build status Windows](https://ci.appveyor.com/api/projects/status/r8wxn1sd4s794gg1/branch/master?svg=true)](https://ci.appveyor.com/project/larskanis/ffi-aofqa/branch/master)
 
 ## Description
 
@@ -15,6 +15,7 @@ using Ruby-FFI](https://wiki.github.com/ffi/ffi/why-use-ffi).
 * C structs (also nested), enums and global variables
 * Callbacks from C to ruby
 * Automatic garbage collection of native memory
+* Supports Heroku-18 stack
 
 ## Synopsis
 
@@ -49,7 +50,7 @@ On Linux systems running with [PaX](https://en.wikipedia.org/wiki/PaX) (Gentoo, 
 
 From rubygems:
 
-    [sudo] gem install ffi
+    [sudo] gem install heroku-ffi-18
 
 or from the git repository on github:
 

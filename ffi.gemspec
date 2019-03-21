@@ -1,7 +1,7 @@
 require File.expand_path("../lib/#{File.basename(__FILE__, '.gemspec')}/version", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name = 'ffi'
+  s.name = 'ffi-heroku-18'
   s.version = FFI::VERSION
   s.author = 'Wayne Meissner'
   s.email = 'wmeissner@gmail.com'
